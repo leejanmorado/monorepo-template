@@ -28,7 +28,7 @@ pnpm install
 
 - `pnpm start:dev` - starts both server and app in development.
 
-## To do/for improvements
+## To do
 
 - Update README.md scripts
 - Replace Jest with Vitest in server if possible

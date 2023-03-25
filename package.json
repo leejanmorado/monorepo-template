@@ -1,0 +1,22 @@
+{
+  "name": "@monorepo-template/root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "pnpm --stream -r run start:dev",
+    "app:start:dev": "pnpm -F @monorepo-template/app run start:dev",
+    "app:build": "pnpm -F @monorepo-template/app run build",
+    "app:start:prod": "pnpm -F @monorepo-template/app run start:prod",
+    "app:test": "pnpm -F @monorepo-template/app run test",
+    "app:coverage": "pnpm -F @monorepo-template/app run coverage",
+    "server:start:dev": "pnpm -F @monorepo-template/server run start:dev",
+    "server:build": "pnpm -F @monorepo-template/server run build",
+    "server:start:prod": "pnpm -F @monorepo-template/server run start:prod",
+    "server:test": "pnpm -F @monorepo-template/server run test",
+    "server:coverage": "pnpm -F @monorepo-template/server run test:cov"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

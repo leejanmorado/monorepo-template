@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Button component > matches DOM snapshot 1`] = `
+<div
+  class="h-screen bg-gray-900 text-2xl sm:text-5xl lg:text-8xl"
+>
+  <div
+    class="flex h-full flex-col items-center justify-center"
+  >
+    <p
+      class="mb-4 w-full text-center text-white"
+    >
+      Count: 
+      0
+    </p>
+    <div
+      class="h-10"
+    >
+      <button
+        class="rounded-md bg-white px-4 py-2 text-base text-black transition-all hover:bg-gray-300 active:bg-gray-300 active:py-[6px] active:px-[14px] active:text-sm  undefined"
+      >
+        Click Me
+      </button>
+    </div>
+  </div>
+</div>
+`;

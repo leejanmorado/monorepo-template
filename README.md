@@ -5,6 +5,7 @@ A minimal monorepo setup for React and NestJS using PNPM workspaces
 ## Features
 
 - [Vite](https://vitejs.dev) with [React](https://reactjs.org), [TypeScript](https://www.typescriptlang.org) and [absolute imports](https://github.com/aleclarson/vite-tsconfig-paths).
+- [NestJS](https://nestjs.com/) for the backend
 - [Tailwind CSS v3](https://tailwindcss.com) with a [Prettier plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) that automatically sorts classes.
 - Use [ESLint](https://eslint.org) and [Prettier](https://prettier.io) on VSCode.
 - Write unit and integration tests with [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/).

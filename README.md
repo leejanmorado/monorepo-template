@@ -32,6 +32,7 @@ pnpm install
 - Update README.md scripts
 - Replace Jest with Vitest in server if possible
 - Create a sample shared components/utils package to be used by the app
+- [Storybook](https://storybook.js.org/) setup for the shared components package
 - [Playwright](https://playwright.dev/) setup for React end-to-end testing
 - Implement a build system using [NX](https://nx.dev/) or [Turborepo](https://turbo.build/) 
 
